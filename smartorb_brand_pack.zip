@@ -1,0 +1,23 @@
+smartorb-brand/
+├─ LICENSE.txt
+├─ README.md
+├─ brand-guidelines/
+│  ├─ SmartOrb-Brand-Guidelines.pdf
+│  └─ color-typography.md
+├─ logos/
+│  ├─ orb-logo-primary.png          (centered watermark)
+│  ├─ orb-logo-primary@2x.png
+│  ├─ orb-logo-dark.svg
+│  ├─ orb-logo-light.svg
+│  └─ orb-logo-monochrome.svg
+├─ social/
+│  ├─ banner-x-1500x500.png
+│  ├─ banner-github-1280x640.png
+│  └─ avatar-1024x1024.png
+├─ app-icons/
+│  ├─ orb-icon-1024.png
+│  ├─ orb-icon-512.png
+│  └─ orb-icon-256.png
+└─ watermark/
+   ├─ watermark-centered.png        (semi-transparent, 18–22% opacity)
+   └─ watermark-centered.svg

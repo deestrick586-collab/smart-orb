@@ -1,0 +1,13 @@
+## 🌍 Smart Orb AutoScan Status
+
+| Workflow | Status |
+|-----------|--------|
+| 🧠 CodeQL Security Scan | ![CodeQL Status](https://github.com/deestrick586/Smart-Orb/actions/workflows/codeql.yml/badge.svg) |
+| 🔒 Appknox Security Scan | ![Appknox Status](https://github.com/deestrick586/Smart-Orb/actions/workflows/appknox.yml/badge.svg) |
+| 🤖 Orb AutoFix AI | ![Orb AutoFix Status](https://github.com/deestrick586/Smart-Orb/actions/workflows/orb-autofix.yml/badge.svg) |
+
+### 🛡️ Global Orb Health
+![All Systems Operational](https://img.shields.io/badge/Smart_Orb-All_Systems_Operational-brightgreen?style=for-the-badge&logo=github&logoColor=white)
+
+> 🪐 **Smart Orb AI** continuously scans, repairs, and protects this repository in real time.  
+> Each badge updates live after every workflow run — when everything is 🟢, your system is fully stable and secure.

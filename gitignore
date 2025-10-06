@@ -1,0 +1,6 @@
+# design exports
+*.png
+*.jpg
+*.zip
+.DS_Store
+Thumbs.db

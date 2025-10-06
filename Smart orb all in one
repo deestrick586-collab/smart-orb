@@ -1,0 +1,5 @@
+SmartOrb_AllInOne/
+├─ faucet/              # Futuristic faucet page
+├─ verify/              # Auto verification script
+├─ web-dapp/            # dApp (already styled)
+└─ ...rest of files...

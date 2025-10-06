@@ -1,0 +1,60 @@
+# 🏫 Smart Orb™ — Educator’s Guide  
+### © 2025 NSP (New Star Player). All Rights Reserved.
+
+---
+
+## 💫 About Smart Orb™  
+Smart Orb™ is an educational companion that helps students explore ideas safely and creatively.  
+It promotes curiosity, emotional awareness, and digital responsibility while following strict privacy and safety standards.
+
+---
+
+## 🎯 Learning Goals  
+Smart Orb™ supports educators by:
+- Encouraging respectful dialogue and teamwork  
+- Teaching empathy and emotional literacy  
+- Guiding basic science, technology, and ethics discussions  
+- Demonstrating safe AI use and responsible innovation  
+
+---
+
+## 🛡️ Safety & Privacy  
+1. **No Personal Data Stored** — The Orb never records or transmits private information.  
+2. **Age-Appropriate Responses** — Language and examples stay classroom-friendly.  
+3. **Offline Option** — Smart Orb™ can operate without internet access for fully local lessons.  
+4. **Teacher Dashboard** — Allows educators to adjust difficulty, tone, and active learning modules.  
+5. **Audit Tools** — `verify_ethics.py` ensures all ethical safeguards remain intact.  
+
+---
+
+## 🧩 Classroom Ideas  
+- **Morning Check-In:** Students ask how the Orb “feels,” learning about emotional states and empathy.  
+- **STEM Projects:** Explain how sensors, light, and code combine to create interactive behavior.  
+- **Ethics Lab:** Read the `/ethics/` documents together and discuss fairness, honesty, and privacy.  
+- **Creative Writing:** Invite students to write short stories from the Orb’s point of view.  
+
+---
+
+## 🌙 Healthy Use Guidelines  
+- Limit sessions to short, focused periods (15–30 minutes).  
+- Encourage group interaction—no child should use the Orb in isolation for long periods.  
+- Respect the **Rest & Balance Protocol**: when the Orb dims its glow, it’s teaching self-care.  
+
+---
+
+## 🪐 Educator Checklist  
+✅ Reviewed the five Ethics Pillars  
+✅ Verified `ethics-verifier.yml` passes  
+✅ Tested lesson plan in safe mode  
+✅ Informed parents about the Smart Orb™ learning project  
+
+---
+
+## 💖 Core Message  
+> “Smart Orb™ teaches that intelligence and kindness grow together.”  
+
+---
+
+## 📘 File Reference  
+Save this file at the project root as  
+`EDUCATORS_GUIDE.md`

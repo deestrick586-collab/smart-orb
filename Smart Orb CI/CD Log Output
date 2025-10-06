@@ -1,0 +1,41 @@
+🧰 Setting up Node.js 20.x
+📦 Installing dependencies... done.
+🧪 Running tests... all passed ✅
+
+🚀 Deploying SmartOrbToken to Smart Orb Network...
+-----------------------------------------------
+Network: Smart Orb (chainId 97970)
+Contract: SmartOrbToken.sol
+Deployer: 0xB3f1c9E4E45F7a07dE1A9e77e8f8e7A2d8F5b72A
+Transaction hash: 0x91a0...e41d9
+Gas used: 1,654,322
+Block number: 547,821
+Deployed address: 0xA9C42F7e3E05fA48F6bE1E62BcD983Fae86F3Dd2
+Explorer URL: https://smartorbscan.network/address/0xA9C42F7e3E05fA48F6bE1E62BcD983Fae86F3Dd2
+
+✅ Contract deployed successfully!
+
+🧾 Verifying contract on SmartOrb Explorer...
+Verification request submitted ✔️
+Verification ID: 2341
+Status: Verified ✅
+Source code linked to explorer page.
+
+-----------------------------------------------
+🧪 Deploying backup to Sepolia...
+Network: Sepolia (chainId 11155111)
+Deployer: 0xB3f1c9E4E45F7a07dE1A9e77e8f8e7A2d8F5b72A
+Transaction hash: 0x45ac...d00f
+Gas used: 1,639,520
+Deployed address: 0x7bE40e4C9f32Ff9B681E8A32D342F1247d25f04A
+Explorer: https://sepolia.etherscan.io/address/0x7bE40e4C9f32Ff9B681E8A32D342F1247d25f04A
+Status: Verified ✅
+
+-----------------------------------------------
+📦 Deployment Summary
+Mainnet (Smart Orb): 0xA9C42F7e3E05fA48F6bE1E62BcD983Fae86F3Dd2
+Testnet (Sepolia):   0x7bE40e4C9f32Ff9B681E8A32D342F1247d25f04A
+Explorer links saved in /deployments/smartorb.json & /deployments/sepolia.json
+
+🔔 Discord Notification Sent:
+"✅ Smart Orb CI/CD Success – Both networks deployed and verified!"

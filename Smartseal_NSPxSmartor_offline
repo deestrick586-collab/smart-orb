@@ -1,0 +1,9 @@
+{
+  "owner": "Dyvon Strickland",
+  "brand": "NSP × SmartOrb",
+  "network": "SmartOrb.Network",
+  "wallet": "Orb Coins Wallet",
+  "version": "1.0",
+  "ai_framework": "Smart Orb AI 5D",
+  "protection": ["Watermark", "SmartSeal", "Offline Validation"]
+}

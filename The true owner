@@ -1,0 +1,23 @@
+@echo off
+:: NSP Email Package Builder
+:: © 2025 Dee Strickland · Built with AI assistance (ChatGPT)
+
+echo.
+echo 🚀 Building NSP_Email_Package.zip ...
+
+:: create temp folder
+set "WORKDIR=%~dp0NSP_Email_Package"
+if exist "%WORKDIR%" rmdir /s /q "%WORKDIR%"
+mkdir "%WORKDIR%"
+
+:: copy files (adjust names if needed)
+copy "%~dp0NSP_DevTools_Bundle.zip" "%WORKDIR%" >nul
+if exist "%~dp0NSP_Awakening_Master_Archive_v1.0.0.zip" copy "%~dp0NSP_Awakening_Master_Archive_v1.0.0.zip" "%WORKDIR%" >nul
+if exist "%~dp0NSP_Email_Checklist.txt" copy "%~dp0NSP_Email_Checklist.txt" "%WORKDIR%" >nul
+
+:: compress
+powershell -NoLogo -Command "Compress-Archive -Path '%WORKDIR%\*' -DestinationPath '%~dp0NSP_Email_Package.zip' -Force"
+
+echo ✅ Done!  Package created:
+echo %~dp0NSP_Email_Package.zip
+pause

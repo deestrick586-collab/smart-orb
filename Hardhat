@@ -1,0 +1,6 @@
+cd hardhat
+npm i
+# create a .env with PRIVATE_KEY and (optionally) ALCHEMY_API_KEY, SMART_ORB_RPC
+npx hardhat compile
+npm run deploy:sepolia     # testnet
+npm run deploy:smartorb    # your custom RPC

@@ -1,0 +1,24 @@
+body {
+  background: radial-gradient(circle at center, #0a0a0a 0%, #000 100%);
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#seal-container { text-align: center; }
+#seal {
+  width: 220px;
+  transition: transform 0.8s ease, filter 0.8s ease;
+}
+#seal.verified {
+  filter: drop-shadow(0 0 25px #00ffea);
+  transform: scale(1.1);
+}
+#seal.tampered {
+  filter: drop-shadow(0 0 25px #ff0044);
+  transform: scale(1.05);
+}
+#status { margin-top: 15px; font-size: 1.1rem; letter-spacing: 1px; }

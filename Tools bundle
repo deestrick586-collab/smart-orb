@@ -1,0 +1,12 @@
+📁 NSP_DevTools_Bundle/
+├── NSP_Full_AutoRelease.ps1      → full GitHub release builder
+├── NSP_QuickUpdate.ps1 / .sh     → one-command version updates
+├── UploadToGitHub.ps1 / upload_to_github.sh → reusable uploaders
+├── Build_Email_Package.bat / build_email_package.sh → package builder
+├── .github/workflows/apisecc-scan.yml → CI workflow (APIsec scan)
+├── README_Usage.txt              → quick-start cheat-sheet
+├── ReleaseNotes_Template.md      → changelog template
+├── ready-to-upload-to-github.txt → GitHub setup notes
+├── CREDITS.txt / SIGNATURE.txt / SHA256.txt → ownership & authenticity
+├── branding/NSP_Logo.png         → official branding asset
+└── NSP_Awakening_Master_Archive_v1.0.0.zip (optional release archive)

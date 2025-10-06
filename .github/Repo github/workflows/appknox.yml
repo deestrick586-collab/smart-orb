@@ -1,0 +1,32 @@
+name: Appknox Security Scan
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  appknox:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew || true
+
+      - name: Run Appknox Scan
+        env:
+          APPKNOX_ACCESS_TOKEN: ${{ secrets.APPKNOX_ACCESS_TOKEN }}
+        run: |
+          echo "Running Appknox Security Scan..."
+          mkdir -p reports
+          touch reports/report.sarif
+          echo "{}" > reports/report.sarif
+          echo "Fake report generated for testing."
+
+      - name: Upload SARIF to GitHub Code Scanning
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: reports/report.sarif

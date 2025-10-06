@@ -1,0 +1,10 @@
+smartorb-brand/
+├─ README.md
+├─ LICENSE
+├─ .gitignore
+├─ brand/
+│  ├─ orb_logo.svg
+│  ├─ watermark_template.svg
+│  └─ export-notes.md
+└─ site/
+   └─ index.html

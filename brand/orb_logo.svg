@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7cf4ff"/>
+      <stop offset="55%" stop-color="#3ac0ff"/>
+      <stop offset="100%" stop-color="#1b2a4a"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#0b1221"/>
+  <circle cx="256" cy="256" r="180" fill="url(#g)" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="178" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <text x="50%" y="50%" fill="#e8feff" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-size="44" text-anchor="middle" dominant-baseline="middle" letter-spacing="2">
+    SMARTORB
+  </text>
+  <text x="50%" y="58%" fill="#9bdcff" font-family="Inter,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-size="16" text-anchor="middle" dominant-baseline="middle" opacity="0.8" letter-spacing="3">
+    AI • UNIVERSAL
+  </text>
+</svg>

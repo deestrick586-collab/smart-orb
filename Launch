@@ -1,0 +1,2 @@
+docker build -t smartorb-web .
+docker run -p 8080:8080 smartorb-web

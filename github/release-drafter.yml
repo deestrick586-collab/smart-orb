@@ -1,0 +1,13 @@
+name-template: "SmartOrb v$NEXT_PATCH_VERSION 🌐"
+tag-template: "v$NEXT_PATCH_VERSION"
+categories:
+  - title: "🚀 Features"
+    labels: ["feature"]
+  - title: "🐛 Fixes"
+    labels: ["bug"]
+  - title: "🧰 Maintenance"
+    labels: ["chore"]
+change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
+template: |
+  ## What's new
+  $CHANGES

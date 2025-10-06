@@ -1,0 +1,2 @@
+cd verify
+node verify.js 0xYourDeployedContract

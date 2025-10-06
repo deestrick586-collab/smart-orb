@@ -1,0 +1,41 @@
+name: Appknox Scan
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  appknox:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # This step ensures gradlew or build files have execute permissions (for Android apps)
+      - name: Grant execute permission for gradlew
+        run: chmod +x ./gradlew || true
+
+      # Optional: build the app if you have an Android project
+      - name: Build App (Optional)
+        run: |
+          if [ -f "./gradlew" ]; then
+            ./gradlew assembleDebug || true
+          fi
+
+      - name: Run Appknox Security Scan
+        uses: appknox/github-action@v1
+        with:
+          file_path: ./app-release.apk   # 👈 change this to your target file or folder
+          access_token: ${{ secrets.APPKNOX_ACCESS_TOKEN }}
+          upload_name: "Smart Orb Security Scan"
+          wait_for_analysis: true
+          output: report.sarif
+
+      - name: Upload SARIF to GitHub Advanced Security
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: report.sarif- name: Generate SARIF report
+      run: touch report.sarif
