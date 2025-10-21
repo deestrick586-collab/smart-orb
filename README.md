@@ -1,4 +1,4 @@
-# 🪐 Smart Orb™ — NSP × DSP Partnership Edition (v1.2)
+# 🪐 Smart Orb Network ™ — NSP × DSP Partnership Edition (v1.2)
 
 **What’s new**
 - ✅ GitHub Action: `.github/workflows/security-scan.yml` (CodeQL + Appknox stub)  
