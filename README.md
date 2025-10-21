@@ -20,4 +20,4 @@ PY
 **Enable email/Slack/Discord**  
 Edit `notifications/notifications.json` and flip `"enabled": true` for the channels you want, then wire secrets in GitHub.
 
-© 2025 NSP (New Star Player) & DSP Partnership. All Rights Reserved.
+© 2025 Smart Orb Network x NSP (New Star Player) & DSP Partnership. All Rights Reserved.
